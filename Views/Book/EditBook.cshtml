@@ -1,5 +1,50 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@using BookManagementApp.Models;
+@model Book;
+<!-- Title (on tab) -->
 @{
+	ViewData["Title"] = "Add/Edit a Book";
 }
+
+<div class="container">
+	<h1 class="pageTitle">Add/Edit a Book</h1>
+
+	<form asp-action="EditBook" method="post">
+		<div asp-validation-summary="All" class="text-danger"></div>
+
+		<input asp-for="Id" type="hidden" />
+
+		<div class="mb-3">
+			<label class="form-label" asp-for="Title">Title</label>
+			<input class="form-control" asp-for="Title" type="Text" />
+		</div>
+
+		<div class="mb-3">
+			<label class="form-label" asp-for="Author">Author</label>
+			<input class="form-control" asp-for="Author" type="Text" />
+		</div>
+
+		<div class="mb-3">
+			<label class="form-label" asp-for="GenreId">Genre</label>
+			<select class="form-select" asp-for="GenreId">
+				<option value="">Choose a Genre</option>
+				@foreach (var genre in ViewBag.Genres)
+				{
+					<option value="@genre.GenreId">@genre.Name</option>
+				}
+			</select>
+		</div>
+
+		<div class="mb-3">
+			<label class="form-check-label" asp-for="IsAvailable">Is it Available?</label>
+			<input class="form-check-inline" asp-for="IsAvailable" type="checkbox" />
+		</div>
+
+		<div class="mb-3">
+			<label class="form-label" asp-for="Year">Year</label>
+			<input class="form-control" asp-for="Year" type="Text" />
+		</div>
+
+		<button class="btn-primary" type="submit">Save</button>
+		<a class="btn-outline-primary" asp-action="Index">Cancel</a>
+	</form>
+</div>

@@ -1,5 +1,45 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿<!-- import the Book class model -->
+@model Book;
+<!-- Title (on tab) -->
 @{
+	ViewData["Title"] = "Book Details";
 }
+
+<div class="container">
+	<!-- Title (on page) -->
+	<h1 class="pageTitle">Details</h1>
+
+	<table class="table-dark">
+		<tr class="d-table-row" hidden>
+			<th>Id</th>
+			<td>@Model.Id</td>
+		</tr>
+		<tr class="d-table-row">
+			<th>Title</th>
+			<td>@Model.Title</td>
+		</tr>
+		<tr class="d-table-row">
+			<th>Author</th>
+			<td>@Model.Author</td>
+		</tr>
+		<tr class="d-table-row">
+			<th>Genre</th>
+			<td>@Model.Genre?.Name</td>
+		</tr>
+		<tr class="d-table-row">
+			<th>Year</th>
+			<td>@Model.Year</td>
+		</tr>
+		<tr class="d-table-row">
+			<th>Is it Available?</th>
+			@if (Model.IsAvailable)
+			{
+				<td>Yes</td>
+			}
+			else
+			{
+				<td>No</td>
+			}
+		</tr>
+	</table>
+</div>

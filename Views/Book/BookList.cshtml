@@ -1,5 +1,46 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿<!-- import a list from the Book class model -->
+@model List<Book>
+<!-- Title (on tab) -->
 @{
+	ViewData["Title"] = "Book List";
 }
+
+<div class="container-lg">
+	<!-- Title (on page) -->
+	<h1 class="pageTitle">List of Books</h1>
+
+	<!-- Table outputting details of all books -->
+	<table class="table-bordered">
+		<thead class="table-dark">
+			<tr class="table-primary">
+				<th hidden>Id</th>
+				<th>Title</th>
+				<th>Author</th>
+				<th>Genre</th>
+				<th>Year</th>
+				<th>Details</th>
+				<th></th>
+			</tr>
+		</thead>
+
+		<tbody class="table-light">
+			@foreach (var book in Model) // loop through added books
+			{
+				<tr class="table-info">
+					<td hidden>@book.Id</td>
+					<td><a asp-action="Details" asp-route-id="@book.Id">@book.Title</a></td>
+					<td>@book.Author</td>
+					<td>@book.Genre.Name</td>
+					<td>@book.Year</td>
+					<td>
+						<a asp-action="Details" class="btn-secondary" asp-route-id="@book.Id">View Details</a>
+					</td>
+					<td>
+						<a asp-action="EditBook" class="btn-primary" asp-route-id="@book.Id">Edit</a> |
+						<a asp-action="DeleteBook" class="btn-danger" asp-route-id="@book.Id">Delete</a>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+</div>
