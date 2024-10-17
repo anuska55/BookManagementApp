@@ -21,11 +21,11 @@ namespace BookManagementApp.Models
 		public string GenreId { get; set; } // Foreign key for Genre
 
 		[ValidateNever]
-		public Genre? Genre { get; set; }
+		public Genre? Genre { get; set; } // Navigation Key for Genre
 
+		[Required(ErrorMessage = "Publication year is required.")]
 		[DateBeforeCurrentYear] // My own validation that inherits from ValidationAttribute class
 		public int? Year { get; set; }
-
 
 		public bool IsAvailable { get; set; }
 	}
