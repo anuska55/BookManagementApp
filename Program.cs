@@ -16,7 +16,7 @@ namespace BookManagementApp
 
 			app.UseStaticFiles();
 
-			app.MapControllerRoute("default", "{controller=Book}/{action=AddBook}/{id?}");
+			app.MapControllerRoute("default", "{controller=Book}/{action=BookList}/{id?}");
 
 			app.Run();
 		}

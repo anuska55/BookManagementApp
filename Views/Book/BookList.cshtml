@@ -10,9 +10,9 @@
 	<h1 class="pageTitle">List of Books</h1>
 
 	<!-- Table outputting details of all books -->
-	<table class="table-bordered">
-		<thead class="table-dark">
-			<tr class="table-primary">
+	<table class="table table-light">
+		<thead class="table table-dark">
+			<tr >
 				<th hidden>Id</th>
 				<th>Title</th>
 				<th>Author</th>
@@ -23,7 +23,7 @@
 			</tr>
 		</thead>
 
-		<tbody class="table-light">
+		<tbody>
 			@foreach (var book in Model) // loop through added books
 			{
 				<tr class="table-info">
@@ -33,11 +33,11 @@
 					<td>@book.Genre.Name</td>
 					<td>@book.Year</td>
 					<td>
-						<a asp-action="Details" class="btn-secondary" asp-route-id="@book.Id">View Details</a>
+						<a asp-action="Details" class="btn btn-secondary" asp-route-id="@book.Id">View Details</a>
 					</td>
 					<td>
-						<a asp-action="EditBook" class="btn-primary" asp-route-id="@book.Id">Edit</a> |
-						<a asp-action="DeleteBook" class="btn-danger" asp-route-id="@book.Id">Delete</a>
+						<a asp-action="EditBook" class="btn btn-primary" asp-route-id="@book.Id">Edit</a> |
+						<a asp-action="DeleteBook" class="btn btn-danger" asp-route-id="@book.Id">Delete</a>
 					</td>
 				</tr>
 			}

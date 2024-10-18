@@ -9,36 +9,36 @@
 	<!-- Title (on page) -->
 	<h1 class="pageTitle">Details</h1>
 
-	<table class="table-dark">
-		<tr class="d-table-row" hidden>
-			<th>Id</th>
-			<td>@Model.Id</td>
+	<table class="table table-dark">
+		<tr hidden>
+			<th hidden>Id</th>
+			<td hidden>@Model.Id</td>
 		</tr>
-		<tr class="d-table-row">
+		<tr>
 			<th>Title</th>
-			<td>@Model.Title</td>
+			<td class="table table-light">@Model.Title</td>
 		</tr>
-		<tr class="d-table-row">
+		<tr>
 			<th>Author</th>
-			<td>@Model.Author</td>
+			<td class="table table-light">@Model.Author</td>
 		</tr>
-		<tr class="d-table-row">
+		<tr>
 			<th>Genre</th>
-			<td>@Model.Genre?.Name</td>
+			<td class="table table-light">@Model.Genre?.Name</td>
 		</tr>
-		<tr class="d-table-row">
+		<tr>
 			<th>Year</th>
-			<td>@Model.Year</td>
+			<td class="table table-light">@Model.Year</td>
 		</tr>
-		<tr class="d-table-row">
+		<tr>
 			<th>Is it Available?</th>
 			@if (Model.IsAvailable)
 			{
-				<td>Yes</td>
+				<td class="table table-light">Yes</td>
 			}
 			else
 			{
-				<td>No</td>
+				<td class="table table-light">No</td>
 			}
 		</tr>
 	</table>

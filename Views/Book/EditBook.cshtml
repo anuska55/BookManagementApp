@@ -9,18 +9,18 @@
 	<h1 class="pageTitle">Add/Edit a Book</h1>
 
 	<form asp-action="EditBook" method="post">
-		<div asp-validation-summary="All" class="text-danger"></div>
-
 		<input asp-for="Id" type="hidden" />
 
 		<div class="mb-3">
 			<label class="form-label" asp-for="Title">Title</label>
 			<input class="form-control" asp-for="Title" type="Text" />
+			<span asp-validation-for="Title" class="text-danger"></span>
 		</div>
 
 		<div class="mb-3">
 			<label class="form-label" asp-for="Author">Author</label>
 			<input class="form-control" asp-for="Author" type="Text" />
+			<span asp-validation-for="Author" class="text-danger"></span>
 		</div>
 
 		<div class="mb-3">
@@ -32,19 +32,22 @@
 					<option value="@genre.GenreId">@genre.Name</option>
 				}
 			</select>
+			<span asp-validation-for="GenreId" class="text-danger"></span>
 		</div>
 
 		<div class="mb-3">
 			<label class="form-check-label" asp-for="IsAvailable">Is it Available?</label>
 			<input class="form-check-inline" asp-for="IsAvailable" type="checkbox" />
+			<span asp-validation-for="IsAvailable" class="text-danger"></span>
 		</div>
 
 		<div class="mb-3">
 			<label class="form-label" asp-for="Year">Year</label>
 			<input class="form-control" asp-for="Year" type="Text" />
+			<span asp-validation-for="Year" class="text-danger"></span>
 		</div>
 
-		<button class="btn-primary" type="submit">Save</button>
-		<a class="btn-outline-primary" asp-action="Index">Cancel</a>
+		<button class="btn btn-primary" type="submit">Save</button>
+		<a class="btn btn-outline-primary" asp-action="Index">Cancel</a>
 	</form>
 </div>

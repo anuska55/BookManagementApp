@@ -4,10 +4,30 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/css/site.css">
+    <link rel="stylesheet" href="~/bootstrap/css/bootstrap.min.css">
 </head>
-<body>
+<body class="bg-body">
+    <header id="myHeader">
+        <h2>Book Management Application</h2>
+        <nav id="myNavBar">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" asp-action="BookList">Book List</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-action="AddBook">Add a Book</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
     <div>
         @RenderBody()
     </div>
+
+    <footer class="blockquote-footer">
+        <p>&copy; Ana Isakov 2024</p>
+    </footer>
 </body>
 </html>
