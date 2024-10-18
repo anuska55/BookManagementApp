@@ -1,18 +1,18 @@
-﻿.blockquote-footer, .blockquote-footer p, #myHeader {
+﻿.myInfo, .myInfo p, .myHeader {
     text-align: center;
     background-color: darkblue;
     color: white;
     padding: 0.9rem;
 }
-#myHeader * {
-    color: white;
+.myHeader a {
+    color: lightcyan;
 }
-#myHeader a:hover{
+.myHeader a:hover{
     color: lightgray;
 }
-.blockquote-footer{
+.myInfo {
     margin-top: 1rem;
 }
-#bodyDiv{
+.bodyDiv{
     margin: 1rem;
 }
