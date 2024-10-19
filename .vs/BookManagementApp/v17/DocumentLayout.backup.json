@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Owner\\Documents\\School\\PROG2230\\WeeklyWork\\Week7\\BookManagementApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA065652-89A0-46F4-909E-EB9094D533DC}|BookManagementApp.csproj|c:\\users\\owner\\documents\\school\\prog2230\\weeklywork\\week7\\bookmanagementapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA065652-89A0-46F4-909E-EB9094D533DC}|BookManagementApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BA065652-89A0-46F4-909E-EB9094D533DC}|BookManagementApp.csproj|c:\\users\\owner\\documents\\school\\prog2230\\weeklywork\\week7\\bookmanagementapp\\models\\datebeforecurrentyear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA065652-89A0-46F4-909E-EB9094D533DC}|BookManagementApp.csproj|solutionrelative:models\\datebeforecurrentyear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA065652-89A0-46F4-909E-EB9094D533DC}|BookManagementApp.csproj|c:\\users\\owner\\documents\\school\\prog2230\\weeklywork\\week7\\bookmanagementapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{BA065652-89A0-46F4-909E-EB9094D533DC}|BookManagementApp.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{BA065652-89A0-46F4-909E-EB9094D533DC}|BookManagementApp.csproj|c:\\users\\owner\\documents\\school\\prog2230\\weeklywork\\week7\\bookmanagementapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA065652-89A0-46F4-909E-EB9094D533DC}|BookManagementApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA065652-89A0-46F4-909E-EB9094D533DC}|BookManagementApp.csproj|c:\\users\\owner\\documents\\school\\prog2230\\weeklywork\\week7\\bookmanagementapp\\views\\book\\deletebook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -69,30 +69,33 @@
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\School\\PROG2230\\WeeklyWork\\Week7\\BookManagementApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Owner\\Documents\\School\\PROG2230\\WeeklyWork\\Week7\\BookManagementApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T15:18:51.375Z",
+              "Title": "DateBeforeCurrentYear.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\School\\PROG2230\\WeeklyWork\\Week7\\BookManagementApp\\Models\\DateBeforeCurrentYear.cs",
+              "RelativeDocumentMoniker": "Models\\DateBeforeCurrentYear.cs",
+              "ToolTip": "C:\\Users\\Owner\\Documents\\School\\PROG2230\\WeeklyWork\\Week7\\BookManagementApp\\Models\\DateBeforeCurrentYear.cs",
+              "RelativeToolTip": "Models\\DateBeforeCurrentYear.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T14:34:44.669Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\School\\PROG2230\\WeeklyWork\\Week7\\BookManagementApp\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Owner\\Documents\\School\\PROG2230\\WeeklyWork\\Week7\\BookManagementApp\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-17T15:20:29.555Z",
-              "EditorCaption": ""
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\School\\PROG2230\\WeeklyWork\\Week7\\BookManagementApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Owner\\Documents\\School\\PROG2230\\WeeklyWork\\Week7\\BookManagementApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T15:18:51.375Z"
             },
             {
               "$type": "Document",
@@ -104,8 +107,7 @@
               "RelativeToolTip": "Views\\Book\\Details.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-18T03:22:41.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T03:22:41.822Z"
             },
             {
               "$type": "Document",
@@ -117,8 +119,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T19:23:49.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T19:23:49.247Z"
             },
             {
               "$type": "Document",
@@ -130,8 +131,7 @@
               "RelativeToolTip": "Controllers\\BookController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T15:19:46.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T15:19:46.924Z"
             },
             {
               "$type": "Document",
@@ -143,8 +143,7 @@
               "RelativeToolTip": "Views\\Book\\EditBook.cshtml",
               "ViewState": "AgIAACUAAAAAAAAAAAAYwDIAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T15:18:32.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T15:18:32.747Z"
             },
             {
               "$type": "Document",
@@ -156,8 +155,7 @@
               "RelativeToolTip": "Views\\Book\\DeleteBook.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T15:18:18.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T15:18:18.336Z"
             },
             {
               "$type": "Document",
@@ -169,8 +167,7 @@
               "RelativeToolTip": "Views\\Book\\BookList.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T15:18:03.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T15:18:03.111Z"
             }
           ]
         }

@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\Owner\\Documents\\School\\PROG2230\\WeeklyWork\\Week7\\BookManagementApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BA065652-89A0-46F4-909E-EB9094D533DC}|BookManagementApp.csproj|c:\\users\\owner\\documents\\school\\prog2230\\weeklywork\\week7\\bookmanagementapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BA065652-89A0-46F4-909E-EB9094D533DC}|BookManagementApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA065652-89A0-46F4-909E-EB9094D533DC}|BookManagementApp.csproj|c:\\users\\owner\\documents\\school\\prog2230\\weeklywork\\week7\\bookmanagementapp\\models\\bookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA065652-89A0-46F4-909E-EB9094D533DC}|BookManagementApp.csproj|solutionrelative:models\\bookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA065652-89A0-46F4-909E-EB9094D533DC}|BookManagementApp.csproj|c:\\users\\owner\\documents\\school\\prog2230\\weeklywork\\week7\\bookmanagementapp\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA065652-89A0-46F4-909E-EB9094D533DC}|BookManagementApp.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA065652-89A0-46F4-909E-EB9094D533DC}|BookManagementApp.csproj|c:\\users\\owner\\documents\\school\\prog2230\\weeklywork\\week7\\bookmanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA065652-89A0-46F4-909E-EB9094D533DC}|BookManagementApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA065652-89A0-46F4-909E-EB9094D533DC}|BookManagementApp.csproj|c:\\users\\owner\\documents\\school\\prog2230\\weeklywork\\week7\\bookmanagementapp\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA065652-89A0-46F4-909E-EB9094D533DC}|BookManagementApp.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BA065652-89A0-46F4-909E-EB9094D533DC}|BookManagementApp.csproj|c:\\users\\owner\\documents\\school\\prog2230\\weeklywork\\week7\\bookmanagementapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BA065652-89A0-46F4-909E-EB9094D533DC}|BookManagementApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -15,20 +35,12 @@
       "RelativeMoniker": "D:0:0:{BA065652-89A0-46F4-909E-EB9094D533DC}|BookManagementApp.csproj|solutionrelative:views\\book\\editbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA065652-89A0-46F4-909E-EB9094D533DC}|BookManagementApp.csproj|c:\\users\\owner\\documents\\school\\prog2230\\weeklywork\\week7\\bookmanagementapp\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA065652-89A0-46F4-909E-EB9094D533DC}|BookManagementApp.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BA065652-89A0-46F4-909E-EB9094D533DC}|BookManagementApp.csproj|c:\\users\\owner\\documents\\school\\prog2230\\weeklywork\\week7\\bookmanagementapp\\views\\book\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BA065652-89A0-46F4-909E-EB9094D533DC}|BookManagementApp.csproj|solutionrelative:views\\book\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA065652-89A0-46F4-909E-EB9094D533DC}|BookManagementApp.csproj|c:\\users\\owner\\documents\\school\\prog2230\\weeklywork\\week7\\bookmanagementapp\\views\\book\\booklist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BA065652-89A0-46F4-909E-EB9094D533DC}|BookManagementApp.csproj|solutionrelative:views\\book\\booklist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA065652-89A0-46F4-909E-EB9094D533DC}|BookManagementApp.csproj|c:\\users\\owner\\documents\\school\\prog2230\\weeklywork\\week7\\bookmanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA065652-89A0-46F4-909E-EB9094D533DC}|BookManagementApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -65,21 +77,63 @@
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\School\\PROG2230\\WeeklyWork\\Week7\\BookManagementApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Owner\\Documents\\School\\PROG2230\\WeeklyWork\\Week7\\BookManagementApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-18T22:16:45.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\School\\PROG2230\\WeeklyWork\\Week7\\BookManagementApp\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Models\\Book.cs",
+              "ToolTip": "C:\\Users\\Owner\\Documents\\School\\PROG2230\\WeeklyWork\\Week7\\BookManagementApp\\Models\\Book.cs",
+              "RelativeToolTip": "Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T21:46:08.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookContext.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\School\\PROG2230\\WeeklyWork\\Week7\\BookManagementApp\\Models\\BookContext.cs",
+              "RelativeDocumentMoniker": "Models\\BookContext.cs",
+              "ToolTip": "C:\\Users\\Owner\\Documents\\School\\PROG2230\\WeeklyWork\\Week7\\BookManagementApp\\Models\\BookContext.cs",
+              "RelativeToolTip": "Models\\BookContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T21:40:32.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Owner\\Documents\\School\\PROG2230\\WeeklyWork\\Week7\\BookManagementApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Owner\\Documents\\School\\PROG2230\\WeeklyWork\\Week7\\BookManagementApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T15:18:51.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T15:18:51.375Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Owner\\Documents\\School\\PROG2230\\WeeklyWork\\Week7\\BookManagementApp\\Views\\Book\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Book\\Details.cshtml",
@@ -87,12 +141,11 @@
               "RelativeToolTip": "Views\\Book\\Details.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-18T03:22:41.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T03:22:41.822Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Owner\\Documents\\School\\PROG2230\\WeeklyWork\\Week7\\BookManagementApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -105,20 +158,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "BookController.cs",
               "DocumentMoniker": "C:\\Users\\Owner\\Documents\\School\\PROG2230\\WeeklyWork\\Week7\\BookManagementApp\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "Controllers\\BookController.cs",
               "ToolTip": "C:\\Users\\Owner\\Documents\\School\\PROG2230\\WeeklyWork\\Week7\\BookManagementApp\\Controllers\\BookController.cs",
               "RelativeToolTip": "Controllers\\BookController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T15:19:46.924Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "EditBook.cshtml",
               "DocumentMoniker": "C:\\Users\\Owner\\Documents\\School\\PROG2230\\WeeklyWork\\Week7\\BookManagementApp\\Views\\Book\\EditBook.cshtml",
               "RelativeDocumentMoniker": "Views\\Book\\EditBook.cshtml",
@@ -126,12 +179,11 @@
               "RelativeToolTip": "Views\\Book\\EditBook.cshtml",
               "ViewState": "AgIAACUAAAAAAAAAAAAYwDIAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T15:18:32.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T15:18:32.747Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "DeleteBook.cshtml",
               "DocumentMoniker": "C:\\Users\\Owner\\Documents\\School\\PROG2230\\WeeklyWork\\Week7\\BookManagementApp\\Views\\Book\\DeleteBook.cshtml",
               "RelativeDocumentMoniker": "Views\\Book\\DeleteBook.cshtml",
@@ -139,12 +191,11 @@
               "RelativeToolTip": "Views\\Book\\DeleteBook.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T15:18:18.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T15:18:18.336Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "BookList.cshtml",
               "DocumentMoniker": "C:\\Users\\Owner\\Documents\\School\\PROG2230\\WeeklyWork\\Week7\\BookManagementApp\\Views\\Book\\BookList.cshtml",
               "RelativeDocumentMoniker": "Views\\Book\\BookList.cshtml",
@@ -152,8 +203,7 @@
               "RelativeToolTip": "Views\\Book\\BookList.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T15:18:03.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T15:18:03.111Z"
             }
           ]
         }

@@ -30,7 +30,7 @@
 					<td hidden>@book.Id</td>
 					<td><a asp-action="Details" asp-route-id="@book.Id">@book.Title</a></td>
 					<td>@book.Author</td>
-					<td>@book.Genre.Name</td>
+					<td>@book.Genre?.Name</td>
 					<td>@book.Year</td>
 					<td>
 						<a asp-action="Details" class="btn btn-secondary" asp-route-id="@book.Id">View Details</a>
